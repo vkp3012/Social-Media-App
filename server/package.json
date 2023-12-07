@@ -1,12 +1,14 @@
 {
-  "name": "socialmedia",
+  "name": "socialMedia",
   "version": "1.0.0",
   "description": "Social Media App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Start" : "nodemon index.js"
   },
   "author": "VKP",
+  "type" : "module",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "^1.4.6",
